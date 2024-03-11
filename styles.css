@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+
+.main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header, .logo-container, .right-links{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.logo-container{
+    gap: 1rem;
+}
+
+
+.right-links{
+    list-style-type: none;
+    gap: 1rem;
+}
