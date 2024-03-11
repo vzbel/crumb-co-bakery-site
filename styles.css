@@ -6,12 +6,12 @@
 
 body{
     font-family: 'Helvetica', sans-serif;
-    color: white;
+    color: #f3efefee;
     background: #1d1716;
 }
 
 .main{
-    max-width: 1150px;
+    max-width: 1200px;
     margin: auto;
     padding: 10px;
 }
@@ -22,7 +22,7 @@ body{
     align-items: center;
 }
 
-.header, .featured-section{
+.header, .featured-section, .favorites-section{
     padding: 10px 20px;
 }
 
@@ -65,4 +65,31 @@ body{
     width: 100px;
     margin-top: 20px;
     cursor: pointer;
+}
+
+/* favorites section */
+.favorites-section{
+    text-align: center;
+    background-color: #402a23;
+}
+
+.favorites-section h2{
+    font-size: 35px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.favorites-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
 }
