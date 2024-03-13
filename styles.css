@@ -41,6 +41,12 @@ body{
     gap: 1rem;
 }
 
+.right-links button{
+    width: 80px;
+    background: none;
+    color: white;
+}
+
 
 /* featured section */
 
@@ -184,3 +190,4 @@ button {
     text-align: center;
     padding: 30px;
 }
+
